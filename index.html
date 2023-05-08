@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:ital,wght@0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css"/>
+    <script defer src="script.js"></script>
+ 
+    <title>Portfolio website</title>
+  </head>
+
+
+  <body>
+    <header class="header sticky"> 
+      <nav class="navigation">
+
+      
+
+        
+        
+        <ul class="nav-list">
+          <li>
+            <a  class="nav-item" href="#skills" >Skills</a>
+          </li>
+          <li>
+            <a class="nav-item" href="#projects">Projects</a>
+          </li>
+          <li>
+            <a class="nav-item" href="#info">Contact info</a>
+          </li>
+          <li>
+           
+          <li>
+            
+          
+        </nav>
+      </ul>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+          
+     
+ 
+    </header> 
+
+    <main>
+
+ 
+    <section class="home">
+      <div class="container">
+        <div class="about">
+          <span class="name">Hi, my name is</span>
+          <h1 class="header__name">Ivan Mušković</h1>
+          <p class="about">
+            Developer with passion for building creative projects and learning
+            new technologies, with good understanding of digital marketing. I
+            also have <span class="degree">Msc in Economy.</span> In my free time I
+            enjoy playing chess and problem solving.
+          </p>
+          <a href="#projects" class="btn btn--projects">Checkout my projects</a>
+        </div>
+        <div class="photo__container">
+          <img class="photo" src="photos/photo_of_me.jpg" alt="photo of me" />
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container__skills">
+        <div class="container__heading">
+          <span class="subheading__skills">my</span>
+          <h2 class="heading__skills">Skills</h2>
+        </div>
+
+        <div class="card__container">
+          <div class="card__row">
+            <div class="card">
+              <div class="container__skill front__side">
+                <p class="skill">Javascript</p>
+              </div>
+              <div class="container__skill back__side">
+                <img
+                  class="photo__cards"
+                  src="photos/JS_2.png"
+                  alt="photo of js"
+                />
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="container__skill front__side">
+                <p class="skill">HTML</p>
+              </div>
+              <div class="container__skill back__side">
+                <img
+                  class="photo__cards"
+                  src="photos/HTML_2.png"
+                  alt="photo of js"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="container__skill front__side">
+                <p class="skill">CSS</p>
+              </div>
+              <div class="container__skill back__side">
+                <img
+                  class="photo__cards"
+                  src="photos/css.png"
+                  alt="photo of js"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="container__skill front__side">
+                <p class="skill">React</p>
+              </div>
+              <div class="container__skill back__side">
+                <img
+                  class="photo__cards"
+                  src="photos/react.png"
+                  alt="photo of js"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="card__row">
+            <div class="card">
+              <div class="container__skill front__side">
+                <p class="skill">NPM</p>
+              </div>
+              <div class="container__skill back__side">
+                <img
+                  class="photo__cards"
+                  src="photos/icons8-npm-144.png"
+                  alt="photo of js"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="container__skill front__side">
+                <p class="skill">GIT</p>
+              </div>
+              <div class="container__skill back__side">
+                <img
+                  class="photo__cards"
+                  src="photos/GIT.png"
+                  alt="photo of js"
+                />
+              </div>
+            </div>
+            <div class="card">
+              <div class="container__skill front__side">
+                <p class="skill">SASS</p>
+              </div>
+              <div class="container__skill back__side">
+                <img
+                  class="photo__cards"
+                  src="photos/icons8-sass-647.png"
+                  alt="photo of js"
+                />
+              </div>
+             
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <section class='projects' id="projects">
+      <div class="container__heading">
+        <span class="subheading__skills">my</span>
+        <h2 class="heading__skills">Projects</h2>
+      </div>
+      <div class='projects__container'>
+       
+        <div class = 'project__holiday'>
+          <img class="project" src="photos/Project thumbnails/Pool Main.JPG"  alt="image of holiday home"/>
+
+          <div class="project__container">
+            <div class="site">
+              <ul class="site__list">
+                <li class="list__item">
+                  <a href="https://holiday-home-ivan.netlify.app" class="link__site">Website</a>
+
+                </li>
+
+                <li class="list__item">
+                  <a href="https://github.com/ivan117-sys/Holiday-home" class="link__site">GitHub</a>
+                </li>
+
+              </ul>
+        
+
+            </div>
+           
+          </div>
+         </div>
+
+         <div class="project__chessapp">
+          <img class="project" src="photos/Project thumbnails/chessapp-top.png" alt="image of chess app"/>
+          <div class="project__container">
+            <div class="site">
+              <ul class="site__list">
+                <li class="list__item">
+                  <a href="https://chess-kids.netlify.app/" class="link__site">Chess app</a>
+
+                </li>
+
+                <li class="list__item">
+                  <a href="https://github.com/ivan117-sys/Chess-app" class="link__site">GitHub</a>
+                </li>
+
+              </ul>
+        
+
+            </div>
+           
+          </div>
+
+       
+         </div>
+
+         <div class="project__movie">
+          <img class="project__small" src="photos/Project thumbnails/Snimka zaslona (434).png" alt="image of movie database"/>
+          <div class="project__container">
+            <div class="site">
+              <ul class="site__list">
+                <li class="list__item">
+                  <a href="https://movie-room17.netlify.app/" class="link__site">Movies app</a>
+
+                </li>
+
+                <li class="list__item">
+                  <a href="https://github.com/ivan117-sys/Movie-site" class="link__site">Github</a>
+                </li>
+
+              </ul>
+        
+
+            </div>
+           
+          </div>
+          
+         </div>
+
+         <div class="project__iorder">
+          <img class="project__small" src="photos/Project thumbnails/Snimka zaslona (432).png" alt="image of iorder app"/>
+          <div class="project__container">
+            <div class="site">
+              <ul class="site__list">
+                <li class="list__item">
+                  <a href="https://iorderapp.netlify.app/" class="link__site">iOrder app</a>
+
+                </li>
+
+                <li class="list__item">
+                  <a href="https://github.com/ivan117-sys/iorder-app" class="link__site">GitHub</a>
+                </li>
+
+              </ul>
+        
+
+            </div>
+           
+          </div>
+          
+         </div>
+         </div>
+     </div>
+
+    </section>
+    <section class="section__info" id="info">
+      <div class="container__heading">
+        <span class="subheading__skills">contact</span>
+        <h2 class="heading__skills">info</h2>
+      </div>
+      <div class="info__container">
+        <div class="contact__container">
+          <div class="input__container">
+            <div class="city">
+              <p class="paragraph__text">City:</p>
+            </div>
+            <div class="city__input">
+              <p class="paragraph__text">52212 Fažana, Croatia </p>
+             
+            </div>
+          </div>
+          <div class="input__container">
+            <div class="email">
+              <p class="paragraph__text">Email:</p>
+            </div>
+            <div class="email__input">
+              <p class="paragraph__text">ivanmuskovic@gmail.com </p>
+             
+            </div>
+          </div>
+          <div class="input__container">
+            <div class="Phone">
+              <p class="paragraph__text">Phone:</p>
+            </div>
+            <div class="email__input">
+              <p class="paragraph__text">+ 385 98 92 94 639  </p>
+             
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+    </section>
+  </main>
+  </body>
+  <script       type="module"       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"     ></script>     <script       nomodule       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"     ></script>
+    
+</script>
+
+</html>
